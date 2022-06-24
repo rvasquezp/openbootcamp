@@ -1,0 +1,6 @@
+#elemento-01{
+    color: red;
+}
+ul li:first-of-type, ol > li:first-of-type{
+    font-size: 2rem;
+}
