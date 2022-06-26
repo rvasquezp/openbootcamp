@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    height: 100vh;
+}
+.galeria{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap:16px;
+}
+.galeria__img{
+    width: 300px;
+    opacity: 0.5;
+}
+.galeria__img:hover{
+    opacity: 1;
+}
