@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-modern{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    box-shadow: 2px 2px rgba(32, 194, 145, 0.856);
+    background-color: aquamarine;
+    color: black;
+    transition: transform 0.4s,box-shadow 0.4s, background-color 0.4s, color 0.4s;
+}
